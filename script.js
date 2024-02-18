@@ -11,5 +11,8 @@
 //let age = 25;
  //age>20 ? console.log("you can vote") : console.log("you can't vote");
 
- alert("hello world!!") //this is only a alert message..
- prompt('hello') //prompt firstly print hello then ask for input..
+ //alert("hello world!!") this is only a alert message..
+//prompt('hello') prompt firstly print hello then ask for input..
+
+let name = prompt ("hello");
+ console.log(name);
