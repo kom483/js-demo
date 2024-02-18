@@ -9,5 +9,5 @@
 
 //ternary operators
 let age = 25;
- let result = age>20 ? "you can vote" : "you can not vote";
- console.log(result);
+ age>20 ? console.log("you can vote") : console.log("you can't vote");
+
