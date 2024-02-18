@@ -19,29 +19,39 @@
 
 
 //get user to input a number using prompt("enter a number:"). check if the number is a multiple of 5 or not.
-let num = prompt("enter a number:");
+// let num = prompt("enter a number:");
 
-if(num % 3 === 0){
-    console.log(num, "is multiple of 3");
-}
-else{
-    console.log(num, "is not a multiple of 3");
-}
+// if(num % 3 === 0){
+//     console.log(num, "is multiple of 3");
+// }
+// else{
+//     console.log(num, "is not a multiple of 3");
+// }
 
 
-//practiec q2
-let score = 66;
-let grade;
-if(score >= 90 && score <= 100){
-    grade ="A";
+// practiec q2
+// let score = 66;
+// let grade;
+// if(score >= 90 && score <= 100){
+//     grade ="A";
+// }
+// else if(score >=70 && score <=89){
+//     grade = "B";
+// }
+// else if(score >= 60 && score <=69){
+//     grade = "C";
+// }
+// else if(score >= 50 && score <=49){
+//     grade = "F";
+// }
+// console.log("according to grade, your grade was :", grade);
+
+//for loop
+for(let i = 1; i<=5; i++){
+    //console.log(i);
+    console.log("apna college");
 }
-else if(score >=70 && score <=89){
-    grade = "B";
+
+for(x= 1; x <= 55; x++){
+    console.log("x");
 }
-else if(score >= 60 && score <=69){
-    grade = "C";
-}
-else if(score >= 50 && score <=49){
-    grade = "F";
-}
-console.log("according to grade, your grade was :", grade);
