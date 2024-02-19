@@ -47,11 +47,23 @@
 // console.log("according to grade, your grade was :", grade);
 
 //for loop
-for(let i = 1; i<=5; i++){
-    //console.log(i);
-    console.log("apna college");
-}
+// for(let i = 1; i<=5; i++){
+//     //console.log(i);
+//     console.log("apna college");
+// }
 
-for(x= 1; x <= 55; x++){
-    console.log("x");
+// for(x= 1; x <= 55; x++){
+//     console.log("x");
+// }
+
+//whhile loop
+// let i = 1;
+// while(i <= 10){
+//     console.log("apna college");
+//     i++;
+
+//for of loop
+let str = "javascript";
+for (let i of str){
+    console.log("i=", i);
 }
