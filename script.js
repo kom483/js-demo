@@ -73,12 +73,26 @@
 // console.log("string size = ", size);
 
 //for in loop
-let student = {
-     name : "komal",
-     age : 25,
-     role : "web developer",
-     ispass : true,
-} ;
-for(let key in student){
-    console.log("key = ", key,     "value =", student[key]);
+// let student = {
+//      name : "komal",
+//      age : 25,
+//      role : "web developer",
+//      ispass : true,
+// } ;
+// for(let key in student){
+//     console.log("key = ", key,     "value =", student[key]);
+// }
+
+//print all even or odd numbers from 0 to 100?
+for(let a = 0; a<=100; a++){
+if(a % 2 === 0)
+    console.log(a, "is even");
+    a++;
+}
+
+
+
+for(let b = 0; b<=100; b++){
+    if(b % 3 === 0)
+    console.log(b, "is odd"); 
 }
