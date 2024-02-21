@@ -83,16 +83,5 @@
 //     console.log("key = ", key,     "value =", student[key]);
 // }
 
-//print all even or odd numbers from 0 to 100?
-for(let a = 0; a<=100; a++){
-if(a % 2 === 0)
-    console.log(a, "is even");
-    a++;
-}
+//ques 
 
-
-
-for(let b = 0; b<=100; b++){
-    if(b % 3 === 0)
-    console.log(b, "is odd"); 
-}

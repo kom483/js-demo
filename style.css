@@ -1,0 +1,15 @@
+body{
+    border: 2px solid black;
+}
+h1{
+    background-color: red;
+    color:beige
+}
+section{
+    background-color: pink;
+    color: blueviolet
+}
+h5{
+    background-color: blueviolet;
+    color: bisque;
+}
